@@ -4,7 +4,7 @@
 from typing import Tuple
 
 
-def index_range(page: int, page_size: int) -> Tuble[int, int]:
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
         index_range: function that receive page and
             page_size and return tuple
