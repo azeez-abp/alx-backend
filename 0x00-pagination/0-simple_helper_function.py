@@ -11,5 +11,8 @@ def index_range(page: int, page_size: int) -> Tuble[int, int]:
         Argument:
             page: int: the page received e.g. page =3
             page_size: the number of item to be added to the page
+        Return:
+            Tuple: (int, int)
     """
     return ((page - 1) * page_size, ((page - 1) * page_size) + page_size)
+
