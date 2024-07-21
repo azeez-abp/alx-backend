@@ -1,7 +1,10 @@
+#!/usr/bin/python3
+
 """Module for pagination"""
 from typing import tuple
 
-def index_range(page: int, page_size: int)->tuple:
+
+def index_range(page: int, page_size: int) -> tuple:
     """
         index_range: function that receive page and
             page_size and return tuple
